@@ -2,6 +2,8 @@
 
 Simple app that helps with migration to the new android phone.
 
+![screen1](img/Screenshot_20240907-141428_blackimpexp.jpg)
+
 ## Features
 
 - export blocked numbers to json
