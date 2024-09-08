@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">blackimpexp</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_removed_number">Number removed from blacklist</string>
+    <string name="error_file">Error with the file</string>
+    <string name="text_export_success">File exported</string>
+    <string name="text_failed_to_read">Error reading the file</string>
+    <string name="text_added_numbers">Numbers added to blacklist</string>
+</resources>
