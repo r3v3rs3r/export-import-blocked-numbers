@@ -79,6 +79,7 @@ jobs:
           path: ${{ env.main_project_module }}/build/outputs/apk/release/
 
       - name: Upload APK Release 2 - ${{ env.repository_name }}
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ env.date_today }} - ${{ env.playstore_name }} - APK(s) release
           path: ${{ env.main_project_module }}/build/outputs/apk/release/app-release-unsigned.apk
