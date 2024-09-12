@@ -77,7 +77,8 @@ jobs:
         with:
           name: ${{ env.date_today }} - ${{ env.playstore_name }} - ${{ env.repository_name }} - APK(s) release generated
           path: ${{ env.main_project_module }}/build/outputs/apk/release/
-		  
+
+      - name: Upload APK Release 2 - ${{ env.repository_name }}
         with:
           name: ${{ env.date_today }} - ${{ env.playstore_name }} - APK(s) release
           path: ${{ env.main_project_module }}/build/outputs/apk/release/app-release-unsigned.apk
@@ -94,6 +95,9 @@ jobs:
     steps:
     - name: Download Artifact
       uses: actions/download-artifact@v4
+
+    - name: List Files
+      run: ls -R
 
     - name: Create GitHub Release
       id: create_release
