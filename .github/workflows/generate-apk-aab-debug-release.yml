@@ -90,8 +90,6 @@ jobs:
     steps:
     - name: Download Artifact
       uses: actions/download-artifact@v4
-      with:
-        name: ${{ env.date_today }} - ${{ env.playstore_name }} - ${{ env.repository_name }} - APK(s) release generated
 
     - name: Create GitHub Release
       id: create_release
