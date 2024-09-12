@@ -111,5 +111,3 @@ jobs:
         asset_path: apk-release/app-release-unsigned.apk
         asset_name: app-release-unsigned.apk
         asset_content_type: application/vnd.android.package-archive		  
-		
-			
